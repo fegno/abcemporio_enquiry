@@ -37,7 +37,7 @@ class ContactForm extends React.Component<{}, { non_field_error: any }> {
   }
   handleSubmit = (values: any, { setErrors ,setSubmitting , isSubmitting }: any) => {
     setSubmitting(true);
-    fetch("http://localhost/emporio/ajax/", {
+    fetch("https://enquiries.abcemporio.com/ajax/", {
       method: "POST",
       body: JSON.stringify(values),
       headers: new Headers({

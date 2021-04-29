@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "abc-emporio-1619681335262",
+  "private_key_id": "1e4be2ab8cb6b343d484b3f5771fd69c58c57cca",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDXvhw2BPN1s+z4\nAF8/dXP64icts+M5S9jrwyqTwSrOIeh3YshBIP1D4SEwkdeUKb+vS2y/GUTWx6uE\n9EdTV9kt++tNqnRqpGM4ddpuCbDogO2QZ9kv9FWu8Hy5fXI0Q2yBblt/0P2nTGIV\nuXjsmQa7zAohoXhcYryDCqusWw5un1sW3X/GssqDpj30Ds1rX1YaJY565f2MnveY\nTp0C4JIQieW6UjFHe2HY1wPoo/0gl54WD3GxSgK4J+KzZW5LhbYNpuN7/Etj6C+R\nFRnUqc/yywH2odoEKSpFOWk53QldMXTeSrk7XgAOv6xTSUWFrNSRJ2p8HIahXphf\nOsvsdBjlAgMBAAECggEABruEHMgOniUoaeF0yLLfivwyVxqK1+AymSSSZwibT2+c\nh03Ys6ea5J+eS5t90NGcZkY9SQ/XWMwyfwz3ihNHgQ0Czy9E8WJkqGwDP2HU9ijK\nSu1sjR8W6qfOuOj7V04H86dJ5utI6jM6PyFO0UekTmH7b0OLjGNu3cwCmmPxDFrM\nWkjDdqZ/qG1TZcYfoMv9euTTRifrhChVQWVe8OlhA1oyAQH5qa5Hde4xU5f5CLwA\nV72ZA79Yp+x8HIwtAiSXCLTlGpdr7xhYSXBXsGqtZDYebtRXA1pFFJmRx7AsUtI6\npN+ag+Ra9gK0Ya2sWUMlJrpz0vpHIQRHcfA3dJXydQKBgQDynEWuUQJv0fXrTwzL\n1LDRJ6MRpBd28YchshZ8bOpkdPuibd2HkfzbsAs31k2EyUwKRflXVjcd6phvZVk/\nCzRmbih9gHcDH2J/rt0o86daI5fwj7OrcuYc9OAXEzJ6V6uVJmE9TPamhZ5jC+Ev\nkaVMLg557HtDVBMefQ1O1pP3wwKBgQDjpjw94D7cJJTMAK98Sc4nV2GG0RxxvX8N\nZ4+jtC9OL77Gsj53H7xVKUXUL8E0EjlA+t/YuySZRR9UIevoIb0hjP8DpoKHtGcH\nhduOYL9Bk97cXRlWpuaekgqqAppNyZKN9RTcdwrfzTCCJYkNH0IwBT9O/ophmH4Y\nMRRioY7KNwKBgGsTt9lo3bd2pqBVgmNQGz4kzV8S2lxf23FuxWfjNkxiKVGWRej4\n8O4RM9JQHmSV5569JYB7h9YHXYIE7C/cBSOUSQCjO2PAbVvHVMsnRtyMyxmcgwMP\nsipjlaf5jBTdLtikWNSSbGYwoSg77QZutNL7nN4JFpovuESDkuUR5bq7AoGAIiU/\nB/DovNBn2SmJKNVRLKl4oWYgJBdORU5xRxaxucKDlP4LTIbgEs38AVWgXxUUrWBz\nzuhTFwI9LrtfzROycKPbZErHbV9rzL8RLYvpZAav+NGmCU9DbClvnAyD5IMFjnFi\nTac1ZFg8nGjQ47z6ioVe95RKYVUkJLDH4/tjlYUCgYAWWLUZbOJSwpWSUOZ9VOTn\n2zY3lGxZyDx8SpvvZ3z5MTzuFrui6RR/tCl+Ds83zSWKRXk83DcQR7srR+q/ee4Z\nagzxI9KzD5AxSPMm46s/V/JHwM9lERiKp6XG97QsCEZMue7o7P+qjbBw4e1obxHb\nCCYrAYuQFoJo3k/DHi+obw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "abcemporio@abc-emporio-1619681335262.iam.gserviceaccount.com",
+  "client_id": "113406629404576564178",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/abcemporio%40abc-emporio-1619681335262.iam.gserviceaccount.com"
+}
