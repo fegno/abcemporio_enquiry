@@ -1,0 +1,16 @@
+export const DISTRICTS = [
+    { id : 1 ,value : "Trivandrum", label : "Trivandrum"} ,
+    { id : 2 ,value : "Kollam", label : "Kollam"} ,
+    { id : 3 ,value : "Pathanamthitta", label : "Pathanamthitta"} ,
+    { id : 4 ,value : "Alapuzha", label : "Alapuzha"} ,
+    { id : 5 ,value : "Kottayam", label : "Kottayam"} ,
+    { id : 6 ,value : "Idukki", label : "Idukki"} ,
+    { id : 7 ,value : "Ernakulam", label : "Ernakulam"} ,
+    { id : 8 ,value : "Trissur", label : "Trissur"} ,
+    { id : 9 ,value : "Palakkad", label : "Palakkad"} ,
+    { id : 10 ,value : "Malapuram", label : "Malapuram"} ,
+    { id : 11 ,value : "Kozhikode", label : "Kozhikode"} ,
+    { id : 12 ,value : "Wayanad", label : "Wayanad"} ,
+    { id : 13 ,value : "Kannur", label : "Kannur"} ,
+    { id : 14 ,value : "Kasargod", label : "Kasargod"} ,
+];
