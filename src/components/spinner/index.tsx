@@ -1,3 +1,3 @@
 export const Spinner = ()=>{
-    return <span>Loading</span>
+    return <div></div>
 }
