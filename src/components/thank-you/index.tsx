@@ -22,7 +22,7 @@ export const ThankYou: React.FC<{ onClose: () => void }> = ({ onClose }) => {
       <div className={css.content}>
         <p>For more information please click on the call business button.</p>
         <div>
-          <a className={css.call_button} href="tel:+919633888355">
+          <a className={css.call_button} href="tel:+919072677575">
             <span className={css.call_button_icon}>
               <img src={icon} alt="Call Icon"/>
             </span>
