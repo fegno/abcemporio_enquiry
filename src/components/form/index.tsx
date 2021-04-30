@@ -82,25 +82,7 @@ class ContactForm extends React.Component<{onComplete:()=> void }, { non_field_e
           }) => (
             <Form>
               <div className={form.inner}>
-              <div className={form.row}>
-                <div className={form.input_wrapper}>
-                  <Select
-                    style={{opacity:.1}}
-                    styles={customStyles}
-                    name="district"
-                    defaultInputValue={INITIAL_VALUES.district}
-                    onChange={(data: any) => {
-                      setFieldValue("district", data.value);
-                    }}
-                    onBlur={(a) => {
-                      setTouched({ ...touched, district: true });
-                    }}
-                    options={DISTRICTS}
-                    placeholder="Select District"
-                  />
-                </div>
-                <Error name="district" />
-              </div>
+              
               <div className={form.row}>
                 <div className={form.input_wrapper}>
                   <Select
@@ -120,7 +102,9 @@ class ContactForm extends React.Component<{onComplete:()=> void }, { non_field_e
                 <Error name="product" />
               </div>
               <div className={form.row}>
-                <div className={form.input_wrapper}>
+                <div className="row">
+                  <div className="col-12 col-md-6">
+                  <div className={form.input_wrapper}>
                   <input
                     onChange={handleChange}
                     onBlur={handleBlur}
@@ -133,9 +117,10 @@ class ContactForm extends React.Component<{onComplete:()=> void }, { non_field_e
                   />
                 </div>
                 <Error name="name" />
-              </div>
-              <div className={form.row}>
-                <div className={form.input_wrapper}>
+                  </div>
+                  <div className={`col-12 col-md-6 ${form.col_phone}`}>
+
+                  <div className={form.input_wrapper}>
                   <PhoneInput
                     isValid={(inputNumber, country, countries) => {
                       return countries.some((country: any) => {
@@ -159,7 +144,32 @@ class ContactForm extends React.Component<{onComplete:()=> void }, { non_field_e
                   />
                 </div>
                 <Error name="phone" />
+                  </div>
+                </div>
+                
               </div>
+         
+
+              <div className={form.row}>
+                <div className={form.input_wrapper}>
+                  <Select
+                    style={{opacity:.1}}
+                    styles={customStyles}
+                    name="district"
+                    defaultInputValue={INITIAL_VALUES.district}
+                    onChange={(data: any) => {
+                      setFieldValue("district", data.value);
+                    }}
+                    onBlur={(a) => {
+                      setTouched({ ...touched, district: true });
+                    }}
+                    options={DISTRICTS}
+                    placeholder="Select District"
+                  />
+                </div>
+                <Error name="district" />
+              </div>
+
               <div className={form.row}>
                 <button disabled={isSubmitting} type="submit" className={form.submit_button}>
                   <span style={{

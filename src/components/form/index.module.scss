@@ -10,7 +10,13 @@
     }
     .row {
         margin-bottom: 10px;
-      
+        .col_phone{
+          padding-left: 0 ;
+          @media screen and (max-width:992px){
+            margin-top: 10px ;
+            padding-left: 15px ;
+          }
+        }
     }
     input.primary{
         width: 100%;
