@@ -6,11 +6,9 @@ import { DISTRICTS } from "../../data/districts";
 import { PRODUCTS } from "../../data/products";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
-import { Formik, Form, Field } from "formik";
-import * as Yup from "yup";
+import { Formik, Form } from "formik";
 import startsWith from "lodash.startswith";
 import { Error } from "../error";
-import { LoadingSpinner } from "../loading";
 const COUNTRY_DEFAULT = "in";
 const customStyles = {
   control: (_:any, { selectProps: { width }}:any) => ({
@@ -28,7 +26,7 @@ const customStyles = {
     fontWeight : 500
   })
   }
-class ContactForm extends React.Component<{}, { non_field_error: any }> {
+class ContactForm extends React.Component<{onComplete:()=> void }, { non_field_error: any }> {
   constructor(props: any) {
     super(props);
     this.state = {
@@ -56,9 +54,14 @@ class ContactForm extends React.Component<{}, { non_field_error: any }> {
               non_field_error: res.error,
             });
           }
+        }else{
+          this.close();
         }
       });
   };
+  close = ()=>{
+    this.props.onComplete();
+  }
   render() {
     return (
       <div className={form.wrapper}>
@@ -79,7 +82,6 @@ class ContactForm extends React.Component<{}, { non_field_error: any }> {
           }) => (
             <Form>
               <div className={form.inner}>
-                {/* { isSubmitting && <LoadingSpinner />} */}
               <div className={form.row}>
                 <div className={form.input_wrapper}>
                   <Select
