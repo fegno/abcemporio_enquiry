@@ -27,6 +27,7 @@ if(count($field_errors)>0){
 date_default_timezone_set('Asia/Kolkata'); 
 $values['id'] = '#'.time(); 
 $values['time'] = date("F j, Y, g:i a");
+print_r($values);
 insert_to_sheet($values);
 echo json_encode(array(
     "status"=>true ,
