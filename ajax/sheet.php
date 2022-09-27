@@ -17,7 +17,7 @@ ServiceRequestFactory::setInstance(
 );
 $spreadsheet = (new Google\Spreadsheet\SpreadsheetService)
    ->getSpreadsheetFeed()
-   ->getByTitle('ABC Emporio Website Leads');
+   ->getByTitle('Abc_emporio_leads');
 $worksheets = $spreadsheet->getWorksheetFeed()->getEntries();
 $worksheet = $worksheets[0];
 $listFeed = $worksheet->getListFeed();
