@@ -39,7 +39,7 @@ class ContactForm extends React.Component<{onComplete:()=> void }, { non_field_e
       method: "POST",
       body: JSON.stringify(values),
       headers: new Headers({
-        "Content-Type": "aplication/json",
+        "Content-Type": "application/json",
       }),
     })
       .then((res) => res.json())
